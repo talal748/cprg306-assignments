@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Item ({name, quantity, category}) {
     return (
         <div className="inline-block pxy-5">

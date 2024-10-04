@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import Item from './item';
 
 export default function ItemList(Item) {
