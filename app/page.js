@@ -8,7 +8,9 @@ export default function Home() {
       <br></br>
       <Link href="./week-3" className="underline text-red-800 hover:text-red-600">Week 3 Assignment</Link>
       <br></br>
-      <Link href="./week-4&5" className="underline text-red-800 hover:text-red-600">Week 4 and 5 Assignment</Link>
+      <Link href="./week-4" className="underline text-red-800 hover:text-red-600">Week 4 Assignment</Link>
+      <br></br>
+      <Link href="./week-5" className="underline text-red-800 hover:text-red-600">Week 5 Assignment</Link>
     </main>
   );
 }
