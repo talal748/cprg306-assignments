@@ -16,6 +16,8 @@ export default function Home() {
       <br></br>
       <Link href="./week-9" className="underline text-red-800 hover:text-red-600">Week 9 Assignment</Link>
       <br></br>
+      <Link href="./week-10" className="underline text-red-800 hover:text-red-600">Week 10 Assignment</Link>
+      <br></br>
     </main>
   );
 }
