@@ -84,16 +84,18 @@ export default function ItemList(Item) {
       }
 
       <button onClick={() => setSortBy("name")}></button>
-      <button onClick={() => setSortBy("category")}></button>
+      
 
-      return ({
-        <h3>Items:</h3>
-        <ul>
-            {sortedItems.map((item) => (
-            <Item key={item.id} name={item.name} category={item.category} />
-        ))}
-      </ul>
-      });
+      return (
+        <div>
+            <h3>Items: </h3>
+            <ul>
+                {sortedItems.map((item) => (
+                <Item key={item.id} name={item.name} category={item.category} />
+            ))}
+            </ul>
+        </div>
+      ) 
     }
 
     
